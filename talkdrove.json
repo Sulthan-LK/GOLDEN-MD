@@ -1,8 +1,8 @@
 
 {
-    "bot-name": "SHADOW-XTECH",
-    "description": "Whiskey Sockets Baileys Whatsapp bot By Mr popkid",
-    "logo": "https://files.catbox.moe/3hrxbh.jpg",
+    "bot-name": "GOLDEN-MD",
+    "description": "Whiskey Sockets Baileys Whatsapp bot By Mr Dilisha",
+    "logo": "https://files.catbox.moe/pfi8mc.jpg",
     "keywords": ["bot"],
     "documentation-link": "https://shadow-xtech-pair-site.onrender.com/pair",
     "owner-verification": "blacktappy5@gmail.com",
@@ -25,7 +25,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "Sʜᴀᴅᴏᴡ-Xᴛᴇᴄʜ"
+      "value": "Ｇ♢ＬＤΣＮ－ＭＤ"
     }, 
       
     "PREFIX": {
@@ -82,27 +82,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*Sʜᴀᴅᴏᴡ-Xᴛᴇᴄʜ 𝑩𝒐𝒕 𝑽𝒊𝒆𝒘𝒆𝒅 𝒀𝒐𝒖𝒓 𝑺𝒕𝒂𝒕𝒖𝒔 🦄*"
+      "value": "*Ｇ♢ＬＤΣＮ－ＭＤ 𝑩𝒐𝒕 𝑽𝒊𝒆𝒘𝒆𝒅 𝒀𝒐𝒖𝒓 𝑺𝒕𝒂𝒕𝒖𝒔 🦄*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Ⴊl𐌀Ꮳk𐌕𐌀ႲႲჄ"
+      "value": "⍟ 𝘋𝘐𝘓𝘐𝘚𝘏𝘈 𝘛𝘌𝘊𝘏 ㊧"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "254759000340"
+      "value": "94771098429"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "Sʜᴀᴅᴏᴡ-Xᴛᴇᴄʜ"
+      "value": "Ｇ♢ＬＤΣＮ－ＭＤ"
 
       }, 
 
@@ -122,7 +122,7 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/3hrxbh.jpgg"
+      "value": "https://files.catbox.moe/pfi8mc.jpg"
     },
         
     "ANTI_BAD": {
@@ -134,7 +134,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Sʜᴀᴅᴏᴡ-Xᴛᴇᴄʜ*"
+      "value": "*© Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Ｇ♢ＬＤΣＮ－ＭＤ*"
     },
 
       "DELETE_LINKS": {

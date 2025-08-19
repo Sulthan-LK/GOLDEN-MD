@@ -114,22 +114,21 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*✨ Hello, Ｇ♢ＬＤΣＮ－ＭＤ Legend! ✨*
+  let up = `
+  
+╔〔 Ｇ♢ＬＤΣＮ－ＭＤ〕╗
 
-╭─〔 *🤖 Ｇ♢ＬＤΣＮ－ＭＤ* 〕  
-├─▸ *Ultrasonic Power and Infinite Speed!*  
-╰─➤ *Your New WhatsApp Sidekick is Here!*
+HELLOW DEAR ${pushname}
+╚═════════════════════════╝
+╭─「 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗣𝗔𝗡𝗘𝗟 」
+│🔹 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+│🔹 𝗢𝗪𝗡𝗘𝗥𝗦 : *⍟ 𝘗𝘙𝘌𝘚𝘌𝘕𝘛 𝘉𝘠 𝘋𝘐𝘓𝘐𝘚𝘏𝘈 𝘛𝘌𝘊𝘏 ㊧*
+│🔹 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : 1.0.0
+│🔹 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : heroku
+╰─────────────●●►
 
-*❤️l Thank you for Choosing Ｇ♢ＬＤΣＮ－ＭＤ!*
-
-╭──〔 🔗 *Quick Links* 〕  
-├─ 📢 *Join Our Channel:*  
-│   Click [**Here**](https://whatsapp.com/channel/00929VasHgfG4tRrwjAUyTs10) to join!  
-├─ ⭐ *Give Us a Star:*  
-│   Star Us [**Here**](https://github.com/Sulthan-LK/GOLDEN-MD)!  
-╰─🛠️ *Prefix:* \`${prefix}\`
-
-> _ ⍟ 𝘗𝘙𝘌𝘚𝘌𝘕𝘛 𝘉𝘠 𝘋𝘐𝘓𝘐𝘚𝘏𝘈 𝘛𝘌𝘊𝘏 ㊧`;
+> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ⍟ 𝘋𝘐𝘓𝘐𝘚𝘏𝘈 𝘛𝘌𝘊𝘏 ㊧*
+  `;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/pfi8mc.jpg` }, caption: up })
   }
   })

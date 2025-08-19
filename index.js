@@ -120,13 +120,10 @@ console.log('GOLDEN-MD connected to whatsapp ✅')
 𝐇𝐄𝐋𝐋𝐎𝐖 𝐃𝐄𝐀𝐑 
 ╚═════════════════════════╝
 ╭─「 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗣𝗔𝗡𝗘𝗟 」
-│🔹 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime.hours}h ${runtime.minutes}m ${runtime.seconds}s
 │🔹 𝗢𝗪𝗡𝗘𝗥𝗦 : ${ownerNumber}
 │🔹 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : 1.0.0
-│🔹 𝐃𝐀𝐓𝐄 : ${currentDate}
 │🔹 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : heroku
 │🔹 𝐏𝐑𝐄𝐅𝐈𝐗 : ${prefix}
-│🔹 𝐓𝐈𝐌𝐄 : ${currentTime}
 ╰─────────────●●►
 
 > *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 𝐃𝐈𝐋𝐈𝐒𝐇𝐀 𝐓𝐄𝐂𝐇 `;

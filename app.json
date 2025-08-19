@@ -1,8 +1,8 @@
 {
-  "name": "Sʜᴀᴅᴏᴡ-Xᴛᴇᴄʜ",
-  "description": "Javascript WhatsApp bot made by Tappy-Black ",
-  "logo": "https://files.catbox.moe/3hrxbh.jpg",
-  "keywords": ["Shadow-Xtech-V1"],
+  "name": "Ｇ♢ＬＤΣＮ－ＭＤ",
+  "description": "Javascript WhatsApp bot made by MR DILISHA ",
+  "logo": "https://files.catbox.moe/pfi8mc.jpg",
+  "keywords": ["GOLDEN-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "Sʜᴀᴅᴏᴡ-Xᴛᴇᴄʜ"
+      "value": "Ｇ♢ＬＤΣＮ－ＭＤ"
     }, 
       
     "PREFIX": {
@@ -79,27 +79,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*Seen your status by Sʜᴀᴅᴏᴡ-Xᴛᴇᴄʜ 🖤*"
+      "value": "*Seen your status by Ｇ♢ＬＤΣＮ－ＭＤ*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Ⴊl𐌀Ꮳk𐌕𐌀ႲႲჄ"
+      "value": "𝐷𝐼𝐿𝐼𝑆𝐻𝐴 𝚃𝙴𝙲𝙷"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "254759000340"
+      "value": "94771098429"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "Sʜᴀᴅᴏᴡ-Xᴛᴇᴄʜ"
+      "value": "Ｇ♢ＬＤΣＮ－ＭＤ"
 
       }, 
 
@@ -125,13 +125,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/3hrxbh.jpg"
+      "value": "https://files.catbox.moe/pfi8mc.jpg"
     },
      
     "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙʟᴀᴄᴋ-ᴛᴀᴘᴘʏ*"
+      "value": "*⍟ 𝘗𝘙𝘌𝘚𝘌𝘕𝘛 𝘉𝘠 𝘋𝘐𝘓𝘐𝘚𝘏𝘈 𝘛𝘌𝘊𝘏 ㊧*"
     },
 
       "DELETE_LINKS": {

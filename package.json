@@ -1,12 +1,12 @@
 {
-  "name": "SHADOW-XTECH",
+  "name": "GOLDEN-MD",
   "version": "1.0.0",
-  "description": "A Node.js Javascript Bot Created By Black-Tappy",
+  "description": "A Node.js Javascript Bot Created By Mr Dilisha",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name SHADOW-XTECH",
-    "stop": "pm2 stop SHADOW-XTECH",
-    "restart": "pm2 restart SHADOW-XTECH"
+    "start": "pm2 start index.js --deep-monitoring --attach --name GOLDEN-MD",
+    "stop": "pm2 stop GOLDEN-MD",
+    "restart": "pm2 restart GOLDEN-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:baileys@6.7.18",

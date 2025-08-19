@@ -129,7 +129,7 @@ const port = process.env.PORT || 9090;
 │   Star Us [**Here**](https://github.com/Sulthan-LK/GOLDEN-MD)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
-> _© MADE BY Ⴊl𐌀Ꮳk𐌕𐌀ႲႲჄ_`;
+> _ ⍟ 𝘗𝘙𝘌𝘚𝘌𝘕𝘛 𝘉𝘠 𝘋𝘐𝘓𝘐𝘚𝘏𝘈 𝘛𝘌𝘊𝘏 ㊧`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/pfi8mc.jpg` }, caption: up })
   }
   })

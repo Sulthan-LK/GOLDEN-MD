@@ -37,13 +37,13 @@ const quotedContact = {
 const getRandomWallpaper = () => FALLBACK_WALLPAPERS[Math.floor(Math.random() * FALLBACK_WALLPAPERS.length)];
 const getRandomQuote = () => FANCY_QUOTES[Math.floor(Math.random() * FANCY_QUOTES.length)];
 
-const whatsappChannelLink = 'https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10';
+const whatsappGroupLink = 'https://chat.whatsapp.com/CBLFgkAG0USDEooeO05rHN?mode=ac_t';
 
 cmd({
     pattern: "alive",
     desc: "Check if the bot is active.",
     category: "info",
-    react: "🎀",
+    react: "👋",
     filename: __filename
 }, async (conn, mek, m, { reply, from }) => {
     try {
@@ -59,17 +59,26 @@ cmd({
         };
 
         const caption = `
-🌟 *GOLDEN-MD STATUS* 🌟
-Hey 👋🏻 ${pushname}
-🕒 *Time*: ${currentTime}
-📅 *Date*: ${currentDate}
-⏳ *Uptime*: ${runtime.hours}h ${runtime.minutes}m ${runtime.seconds}s
 
-*🤖Status*: *Bot is alive and healthy🛠️*
+╔〔 Ｇ♢ＬＤΣＮ－ＭＤ〕╗
+
+𝐇𝐄𝐋𝐋𝐎𝐖 𝐃𝐄𝐀𝐑 
+╚═════════════════════════╝
+╭─「 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗣𝗔𝗡𝗘𝗟 」
+│🔹 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime.hours}h ${runtime.minutes}m ${runtime.seconds}s
+│🔹 𝗢𝗪𝗡𝗘𝗥𝗦 : ${ownerNumber}
+│🔹 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : 1.0.0
+│🔹 𝐃𝐀𝐓𝐄 : ${currentDate}
+│🔹 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : heroku
+│🔹 𝐏𝐑𝐄𝐅𝐈𝐗 : ${prefix}
+│🔹 𝐓𝐈𝐌𝐄 : ${currentTime}
+╰─────────────●●►
+
+> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 𝐃𝐈𝐋𝐈𝐒𝐇𝐀 𝐓𝐄𝐂𝐇*
 
 "${getRandomQuote()}"
 
-*🔹 Powered by Black-Tappy 🔹*
+*🔹 ⍟ 𝘗𝘙𝘌𝘚𝘌𝘕𝘛 𝘉𝘠 𝘋𝘐𝘓𝘐𝘚𝘏𝘈 𝘛𝘌𝘊𝘏 ㊧ 🔹*
         `.trim();
 
         await conn.sendMessage(from, {
@@ -80,14 +89,13 @@ Hey 👋🏻 ${pushname}
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363369453603973@newsletter',
-                    newsletterName: '𝐒ʜᴀᴅᴏᴡ 𝐗ᴛᴇᴄʜ',
+                    newsletterJid: '120363403061888196@newsletter',
+                    newsletterName: 'Ｇ♢ＬＤΣＮ－ＭＤ',
                     serverMessageId: 143
                 },
                 externalAdReply: {
-                    title: "⚙️ SHADOW-XTECH SYSTEM STATUS",
+                    title: "Ｇ♢ＬＤΣＮ－ＭＤ",
                     body: "Bot is live and operational — stay connected!",
-                    thumbnailUrl: "https://files.catbox.moe/3l3qgq.jpg",
                     sourceUrl: whatsappChannelLink,
                     mediaType: 1,
                     renderLargerThumbnail: false

@@ -117,12 +117,13 @@ console.log('GOLDEN-MD connected to whatsapp ✅')
   let up = `  
 ╔〔 Ｇ♢ＬＤΣＮ－ＭＤ〕╗
 
-𝐇𝐄𝐋𝐋𝐎𝐖 𝐃𝐄𝐀𝐑
+𝐇𝐄𝐋𝐋𝐎𝐖 𝐃𝐄𝐀𝐑 : ${pushname}
 ╚═════════════════════════╝
 ╭─「 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗣𝗔𝗡𝗘𝗟 」
 │🔹 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : OWNER ONLY
 │🔹 𝗢𝗪𝗡𝗘𝗥𝗦 : ${ownerNumber}
 │🔹 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : 1.0.0
+│🔹 𝐃𝐀𝐓𝐄 : ${currentDate}
 │🔹 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : heroku
 │🔹 𝐏𝐑𝐄𝐅𝐈𝐗 : ${prefix}
 ╰─────────────●●►

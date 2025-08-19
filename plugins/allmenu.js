@@ -1,7 +1,7 @@
 import moment from 'moment-timezone';
 import pkg from '@whiskeysockets/baileys';
 const { generateWAMessageFromContent, proto } = pkg;
-import config from '../../config.cjs';
+import config from '../../config.js';
 
 const allMenu = async (m, sock) => {
   const prefix = config.PREFIX;

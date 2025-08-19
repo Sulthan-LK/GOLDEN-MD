@@ -74,7 +74,6 @@ cmd({
 
 "${getRandomQuote()}"
 
-*🔹 Powered by Black-Tappy 🔹*
         `.trim();
 
         await conn.sendMessage(from, {

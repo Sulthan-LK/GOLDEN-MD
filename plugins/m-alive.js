@@ -94,7 +94,7 @@ cmd({
                 externalAdReply: {
                     title: "Ｇ♢ＬＤΣＮ－ＭＤ",
                     body: "Bot is live and operational — stay connected!",
-                    sourceUrl: whatsappChannelLink,
+                    sourceUrl: whatsappGroupLink,
                     mediaType: 1,
                     renderLargerThumbnail: false
                 }

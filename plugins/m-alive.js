@@ -8,16 +8,6 @@ const FALLBACK_WALLPAPERS = [
   
 ];
 
-const FANCY_QUOTES = [
-    "🧬 Neural grid stable — systems running within optimal range.",
-    "🛰 Core uplink established — listening for user signal...",
-    "⚡ Power node calibrated — quantum stream active.",
-    "🧠 AI kernel synchronized — directive input mode engaged.",
-    "⚙️ XTECH protocol active — mission parameters clear.",
-    "🔋 Energy flow: 100% | AI routine: ALIVE",
-    "🚀 Fusion reactor idle. Awaiting next instruction...",
-    "🌐 Multi-thread ops: — No anomalies detected."
-];
 
 // Quoted contact to show as reference
 const quotedContact = {
@@ -28,7 +18,7 @@ const quotedContact = {
     },
     message: {
         contactMessage: {
-            displayName: "⚙️ System-Status | Verified ✅",
+            displayName: "DONT TAP | Verified ✅",
             vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:SCIFI\nORG:Shadow-Xtech BOT;\nTEL;type=CELL;type=VOICE;waid=254700000001:+254 700 000001\nEND:VCARD"
         }
     }

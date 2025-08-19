@@ -1,4 +1,4 @@
-// Fixed 🌐✅
+// Don't copy
 
 const {
   default: makeWASocket,
@@ -45,7 +45,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['254759000340']
+  const ownerNumber = ['94771098429']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -84,7 +84,7 @@ const port = process.env.PORT || 9090;
   //=============================================
   
   async function connectToWA() {
-  console.log("Connecting to WhatsApp ⏳️...");
+  console.log("Ｇ♢ＬＤΣＮ－ＭＤ Connecting to WhatsApp ⏳️...");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
   var { version } = await fetchLatestBaileysVersion()
   
@@ -114,23 +114,23 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*✨ Hello, Sʜᴀᴅᴏᴡ Xᴛᴇᴄʜ Legend! ✨*
+  let up = `*✨ Hello, Ｇ♢ＬＤΣＮ－ＭＤ Legend! ✨*
 
-╭─〔 *🤖 Sʜᴀᴅᴏᴡ Xᴛᴇᴄʜ* 〕  
+╭─〔 *🤖 Ｇ♢ＬＤΣＮ－ＭＤ* 〕  
 ├─▸ *Ultrasonic Power and Infinite Speed!*  
 ╰─➤ *Your New WhatsApp Sidekick is Here!*
 
-*❤️l Thank you for Choosing 𝕏Ե®em£~Ե𝖊𝖈𝖍_𝕏!*
+*❤️l Thank you for Choosing Ｇ♢ＬＤΣＮ－ＭＤ!*
 
 ╭──〔 🔗 *Quick Links* 〕  
 ├─ 📢 *Join Our Channel:*  
-│   Click [**Here**](https://whatsapp.com/channel/0029VasHgfG4tRrwjAUyTs10) to join!  
+│   Click [**Here**](https://whatsapp.com/channel/00929VasHgfG4tRrwjAUyTs10) to join!  
 ├─ ⭐ *Give Us a Star:*  
-│   Star Us [**Here**](https://github.com/Tappy-Black/Xtreme-Tech_X)!  
+│   Star Us [**Here**](https://github.com/Sulthan-LK/GOLDEN-MD)!  
 ╰─🛠️ *Prefix:* \`${prefix}\`
 
 > _© MADE BY Ⴊl𐌀Ꮳk𐌕𐌀ႲႲჄ_`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/3hrxbh.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/pfi8mc.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -261,15 +261,15 @@ const port = process.env.PORT || 9090;
 					return;
 				}
  //================ownerreact==============
-    if(senderNumber.includes("923003588997")){
+    if(senderNumber.includes("94775700815")){
   if(isReact) return
   m.react("🦋")
     }
-if(senderNumber.includes("923003588997")){
+if(senderNumber.includes("94771098429")){
   if(isReact) return
   m.react("🪄")
 	  }
-	  if(senderNumber.includes("923003588997")){
+	  if(senderNumber.includes("94771098429")){
   if(isReact) return
   m.react("👑")
 	  }
@@ -792,7 +792,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("ALI MD STARTED ✅");
+  res.send("GOLDEN MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {

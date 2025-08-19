@@ -5,9 +5,18 @@ let botStartTime = Date.now(); // Bot launch time
 
 const FALLBACK_WALLPAPERS = [
 "https://files.catbox.moe/pfi8mc.jpg"
-  
 ];
 
+const FANCY_QUOTES = [
+    "🧬 Neural grid stable — systems running within optimal range.",
+    "⬆️ Upload your system - System",
+    "⚡ Power node calibrated — quantum stream active.",
+    "🧠 AI kernel synchronized — directive input mode engaged.",
+    "⚙️ GOLDEN protocol active — mission parameters clear.",
+    "🔋 Energy flow: 100% | AI routine: ALIVE",
+    "🚀 Fusion reactor idle. Awaiting next instruction...",
+    "🌐 Multi-thread ops: — No anomalies detected."
+];
 
 // Quoted contact to show as reference
 const quotedContact = {
@@ -18,8 +27,8 @@ const quotedContact = {
     },
     message: {
         contactMessage: {
-            displayName: "DONT TAP | Verified ✅",
-            vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:SCIFI\nORG:Shadow-Xtech BOT;\nTEL;type=CELL;type=VOICE;waid=254700000001:+254 700 000001\nEND:VCARD"
+            displayName: "Sticker-LK | Verified ✅",
+            vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:SCIFI\nORG:GOLDEN-MD BOT;\nTEL;type=CELL;type=VOICE;waid=94775700815:+94775700815\nEND:VCARD"
         }
     }
 };
@@ -27,7 +36,7 @@ const quotedContact = {
 const getRandomWallpaper = () => FALLBACK_WALLPAPERS[Math.floor(Math.random() * FALLBACK_WALLPAPERS.length)];
 const getRandomQuote = () => FANCY_QUOTES[Math.floor(Math.random() * FANCY_QUOTES.length)];
 
-const whatsappGroupLink = 'https://chat.whatsapp.com/CBLFgkAG0USDEooeO05rHN?mode=ac_t';
+const whatsappChannelLink = 'https://chat.whatsapp.com/CBLFgkAG0USDEooeO05rHN?mode=ac_t';
 
 cmd({
     pattern: "alive",
@@ -49,24 +58,23 @@ cmd({
         };
 
         const caption = `
-
 ╔〔 Ｇ♢ＬＤΣＮ－ＭＤ〕╗
 
 𝐇𝐄𝐋𝐋𝐎𝐖 𝐃𝐄𝐀𝐑 
 ╚═════════════════════════╝
 ╭─「 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 𝗣𝗔𝗡𝗘𝗟 」
-│🔹 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime.hours}h ${runtime.minutes}m ${runtime.seconds}s
-│🔹 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : 1.0.0
-│🔹 𝐃𝐀𝐓𝐄 : ${currentDate}
-│🔹 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : heroku
 │🔹 𝐓𝐈𝐌𝐄 : ${currentTime}
+│🔹 𝗩𝗲𝗿𝘀𝗶𝗼𝗻 : 1.0.0
+│🔹 𝐑𝐔𝐍 𝐓𝐈𝐌𝐄 : ${runtime.hours}h ${runtime.minutes}m ${runtime.seconds}s
+│🔹 𝐑𝐔𝐍 𝐃𝐀𝐓𝐄 : ${currentDate}
+│🔹 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : heroku
 ╰─────────────●●►
 
 > *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : 𝐃𝐈𝐋𝐈𝐒𝐇𝐀 𝐓𝐄𝐂𝐇*
 
 "${getRandomQuote()}"
 
-*🔹 ⍟ 𝘗𝘙𝘌𝘚𝘌𝘕𝘛 𝘉𝘠 𝘋𝘐𝘓𝘐𝘚𝘏𝘈 𝘛𝘌𝘊𝘏 ㊧ 🔹*
+*🔹 Powered by Black-Tappy 🔹*
         `.trim();
 
         await conn.sendMessage(from, {
@@ -82,9 +90,9 @@ cmd({
                     serverMessageId: 143
                 },
                 externalAdReply: {
-                    title: "Ｇ♢ＬＤΣＮ－ＭＤ",
+                    title: "GOLDEN-MD SYSTEM STATUS",
                     body: "Bot is live and operational — stay connected!",
-                    sourceUrl: whatsappGroupLink,
+                    sourceUrl: whatsappChannelLink,
                     mediaType: 1,
                     renderLargerThumbnail: false
                 }

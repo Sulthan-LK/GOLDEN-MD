@@ -5,8 +5,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 const fetch = require('node-fetch');
 var os = require('os')
 const { File } = require('megajs');
-
-} 
+ 
 
 
 //===============================================================================

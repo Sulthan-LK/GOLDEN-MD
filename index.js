@@ -39,6 +39,7 @@ const {
   const axios = require('axios')
   const { File } = require('megajs')
   const { fromBuffer } = require('file-type')
+  const { mongodb_connection_start, start_numrep_process, upload_to_mongodb, get_data_from_mongodb, storenumrepdata, getstorednumrep } = require('./lib/nonbutton')
   const bodyparser = require('body-parser')
   const os = require('os')
   const Crypto = require('crypto')

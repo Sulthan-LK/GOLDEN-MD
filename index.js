@@ -40,7 +40,6 @@ const {
   const { File } = require('megajs')
   const { fromBuffer } = require('file-type')
   const bodyparser = require('body-parser')
-  const { mongodb_connection_start, start_numrep_process, upload_to_mongodb, get_data_from_mongodb, storenumrepdata, getstorednumrep } = require('./lib/nonbutton')
   const os = require('os')
   const Crypto = require('crypto')
   const path = require('path')
